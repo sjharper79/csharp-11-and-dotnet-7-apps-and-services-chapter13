@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.Common", "Northwind.Common\Northwind.Common.csproj", "{06C8C9C2-3ECF-4489-8D9E-EE71CB7B27F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Northwind.Common", "Northwind.Common\Northwind.Common.csproj", "{06C8C9C2-3ECF-4489-8D9E-EE71CB7B27F4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Northwind.SignalR.Client.Console", "Northwind.SignalR.Client.Console\Northwind.SignalR.Client.Console.csproj", "{AA6B3ED4-86B3-4EAD-A073-6E994F57A125}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Northwind.SignalR.Service.Client.Mvc", "Northwind.SignalR.Service.Client.Mvc\Northwind.SignalR.Service.Client.Mvc.csproj", "{69DC541D-C1A7-4061-B075-E9AD5E346ECB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.SignalR.Client.Console.Streams", "Northwind.SignalR.Client.Console.Streams\Northwind.SignalR.Client.Console.Streams.csproj", "{F5D2A5C6-4C59-4D42-8D83-227CCF48A0B5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{06C8C9C2-3ECF-4489-8D9E-EE71CB7B27F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06C8C9C2-3ECF-4489-8D9E-EE71CB7B27F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06C8C9C2-3ECF-4489-8D9E-EE71CB7B27F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA6B3ED4-86B3-4EAD-A073-6E994F57A125}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA6B3ED4-86B3-4EAD-A073-6E994F57A125}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA6B3ED4-86B3-4EAD-A073-6E994F57A125}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA6B3ED4-86B3-4EAD-A073-6E994F57A125}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69DC541D-C1A7-4061-B075-E9AD5E346ECB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69DC541D-C1A7-4061-B075-E9AD5E346ECB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69DC541D-C1A7-4061-B075-E9AD5E346ECB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69DC541D-C1A7-4061-B075-E9AD5E346ECB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5D2A5C6-4C59-4D42-8D83-227CCF48A0B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5D2A5C6-4C59-4D42-8D83-227CCF48A0B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5D2A5C6-4C59-4D42-8D83-227CCF48A0B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5D2A5C6-4C59-4D42-8D83-227CCF48A0B5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
